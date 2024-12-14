@@ -1,0 +1,86 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.name{
+	color: orange;
+	text-align: center;
+	margin-bottom: 100px;
+
+}
+.body{
+	background-color: black;
+	padding: 130px;
+}
+/* Flex container for the sections */
+.skil-container {
+	display: flex;
+	justify-content: space-between; /* Distributes space evenly between sections */
+	gap: 20px;
+	background-color: black;
+
+  }
+  
+  /* Individual sections */
+  .section1, .section2, .section3 {
+	flex: 1; /* Makes all sections take equal space */
+	padding: 20px;
+	
+	background-color: black;
+	color: orange; /* Optional: Add a light background color */
+  }
+  
+  /* Block format for section1 */
+  .section1 h1, .section1 h2 {
+	margin-bottom: 20px; /* Adds spacing between block elements */
+  }
+  
+  .section1 h1 {
+	font-size: 30px;
+  }
+  
+  .section1 h2 {
+	font-size: px;
+  }
+  
+  .section2 h1, .section2 h2 {
+	margin-bottom: 20px; /* Adds spacing between block elements */
+  }
+  
+  .section1 h1 {
+	font-size: 30px;
+  }
+  
+  .section1 h2 {
+	font-size: px;
+  }
+  .section3 h1, .section3 h2 {
+	margin-bottom: 20px; /* Adds spacing between block elements */
+  }
+  
+  .section1 h1 {
+	font-size: 30px;
+  }
+  
+  .section1 h2 {
+	font-size: px;
+  }
+  
+  
+  /* Optional: Style other sections */
+  .section2, .section3 {
+	display: flex;
+	align-items: center;
+	justify-content: center; /* Centers the content */
+	font-size: 18px;
+  }
+  .section2, .section3{
+	display: block;
+  }
+  .progress{
+	
+	width: 350px;
+	height: 10px;
+  }
+  

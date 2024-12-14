@@ -1,0 +1,83 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.home-container{
+  background-color: black;
+  color: orange;
+  display: flex;
+  padding: 140px;
+}
+.name-section{
+  
+  font-family: sans-serif;
+  font-weight: bolder;
+
+}
+
+.design
+{
+  height: 30rem;
+  width: 200px;
+  background-color: orange;
+  float: right;
+  margin-left: 15rem;
+  margin-top: -100px;
+  margin-bottom: 0;
+  border-radius: 100px;
+  color: black;
+}
+
+.vertical{
+  position: absolute;
+  font-weight: bolder;
+  font-size: 40px;
+ font-family: 'Times New Roman', Times, serif;
+   letter-spacing: 2px;
+   text-transform: uppercase;
+  padding: 35px 10px;
+  line-height: 24px;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  margin-left: 70px;
+
+}
+.name-head{
+     font-size: 50px;
+     font-family: 'Times New Roman', Times, serif;
+     font-weight: bolder;
+     margin-left: 200px;
+}
+.name-body{
+  font-size: 50px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bolder;
+  margin-left: 200px;
+}
+.fullname{
+  font-size: 50px;
+  font-family: 'Times New Roman', Times, serif;
+  margin-left: 200px;
+  font-weight: bolder;
+  color: rgb(186, 159, 68);
+  margin-top: 20px;
+
+}
+.icon{
+  margin-left: 250px;
+  border: 2px solid orange;
+  width: 200px;
+ padding: 10px;
+ border-radius: 100px;
+ cursor: pointer;
+ transition: transform 0.3s ease-in-out;  /* Optional: Add hover effect */
+
+}
+.fa-facebook, .fa-linkedin, .fa-github, .fa-instagram{
+  margin-left: 10px;
+
+}
+.icon:hover {
+  transform: translateY(-5px);  /* Hover effect to raise the project card */
+}

@@ -1,0 +1,53 @@
+.project-container {
+    padding: 50px;
+    text-align: center;
+    background-color: black;
+    padding: 100px;
+    height: 42rem;
+  }
+  .project-name{
+    color: orange;
+    font-family: sans-serif;
+    font-weight: bolder;
+    margin-bottom: 100px;
+
+  }
+  .project-list {
+    display: flex;
+    flex-wrap: wrap;  /* Ensures projects wrap onto new lines if necessary */
+    justify-content: space-between;  /* Distribute space between items */
+    gap: 20px;  
+    margin-top: 0px;/* Space between project cards */
+  }
+  
+  .project-card {
+    background-color: black;
+    border: 1px solid orange;
+    border-radius: 8px;
+    padding: 20px;
+    width: calc(33% - 20px);  /* Adjust width of each project card */
+    box-shadow: 0 4px 8px rgba(224, 213, 213, 0.1);
+    text-align: left;
+    box-sizing: border-box;
+    transition: transform 0.3s ease-in-out;  /* Optional: Add hover effect */
+  }
+  
+  .project-card:hover {
+    transform: translateY(-5px);  /* Hover effect to raise the project card */
+  }
+  
+  .project-card h3 {
+    font-size: 24px;
+    color: orange;
+  }
+  
+  .project-card p {
+    font-size: 16px;
+    color: orange;
+  }
+  
+  .project-card .technologies {
+    font-size: 14px;
+    color: orange;
+  }
+  

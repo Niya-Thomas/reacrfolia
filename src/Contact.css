@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.contact-container{
+    display: flex;
+    background-color: black;
+    color: orange;
+    padding: 40px;
+}
+.form-content{
+    display: block;
+    gap: 10rem;
+   
+}
+.contact-form{
+    display: block;
+    float: right;
+    background-color: rgb(209, 198, 182);
+    border-radius: 15px;
+}
+.contact-form{
+    margin-left: 250px;
+    margin-top: 50px;
+    gap: 10rem;
+    margin-bottom: 50px;
+    padding: 20px;
+    
+}
+.mail , .name, .number,.message{
+    margin: 30px;
+    
+}
+input {
+   height: 50px;
+   width: 20rem;
+   border-radius: 15px ;
+   border:none;
+  
+}
+input ::placeholder{
+    color: grey;
+}
+.h1{
+   color: rgb(230, 176, 112);
+   text-align: center;
+}
+.contact-me{
+    text-align: center;
+    font-size: 100px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    margin-left: 20px;
+    margin-top: 90px;
+    color: rgb(208, 147, 32);
+
+}
+.icons{
+    margin-left: 250px;
+    border: 2px solid orange;
+    width: 200px;
+   padding: 10px;
+   border-radius: 100px;
+   transition: transform 0.3s ease-in-out;  /* Optional: Add hover effect */
+
+}
+.fa-facebook, .fa-linkedin, .fa-github, .fa-instagram{
+    margin-left: 20px;
+
+}
+.span{
+    margin-left: 300px;
+    font-size: 100px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    color: rgb(229, 189, 114);
+
+}
+.btn{
+    background-color: rgb(230, 157, 48);
+    border: none;
+    color: white;
+    margin-left: 150px;
+    border-radius: 50px;
+
+}
+.icons:hover {
+    transform: translateY(-5px);  /* Hover effect to raise the project card */
+  }
+  
